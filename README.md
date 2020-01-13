@@ -124,7 +124,7 @@ chmod -options filename
 ```
 
 ### c. `chown`
-The chown command stands for "change owner", and allows you to change the owner of a given file or folder, which can be a user and a group. Basic usage is simple forward first comes the user (owner), and then the group, delimited by a colon.
+The chown command stands for "change ownership", and allows you to change the owner of a given file or folder, which can be a user and a group. Basic usage is simple forward first comes the user (owner), and then the group, delimited by a colon.
 ```bash
 chown -options user:group filename
 ```
@@ -249,7 +249,7 @@ mv old_name new_name
 ```
 
 ### r. `rm`
-Removes a file. Using this command on a directory gives you an error.
+Removes a file. Using this command on a files gives you an error.
 `rm: directory: is a directory`
 To remove a directory you have to pass `-r` which will remove the content of the directory recursively. Optionally you can use `-f` flag to force the deletion i.e. without any confirmations etc.
 ```bash
@@ -263,7 +263,7 @@ tail filename
 ```
 
 ### t. `touch`
-Updates access and modification time stamps of your file. If it doesn't exists, it'll be created.
+It is used to create empty files. If it doesn't exists, it'll be created.
 ```bash
 touch filename
 ```
