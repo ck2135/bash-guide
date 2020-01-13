@@ -124,7 +124,7 @@ chmod -options filename
 ```
 
 ### c. `chown`
-The chown command stands for "change owner", and allows you to change the owner of a given file or folder, which can be a user and a group. Basic usage is simple forward first comes the user (owner), and then the group, delimited by a colon.
+The chown command stands for "change ownership", and allows you to change the owner of a given file or folder, which can be a user and a group. Basic usage is simple forward first comes the user (owner), and then the group, delimited by a colon.
 ```bash
 chown -options user:group filename
 ```
