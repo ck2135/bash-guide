@@ -249,7 +249,7 @@ mv old_name new_name
 ```
 
 ### r. `rm`
-Removes a file. Using this command on a directory gives you an error.
+Removes a file. Using this command on a files gives you an error.
 `rm: directory: is a directory`
 To remove a directory you have to pass `-r` which will remove the content of the directory recursively. Optionally you can use `-f` flag to force the deletion i.e. without any confirmations etc.
 ```bash
