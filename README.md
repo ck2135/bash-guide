@@ -89,6 +89,7 @@ Clears the content on window.
       <td><a href="#i-gzcat">gzcat</a></td>
       <td><a href="#j-gzip">gzip</a></td>
       <td><a href="#k-head">head</a></td>
+      <td><a href="#l-tail">tail</a></td>
    </tr>
    <tr>
       <td><a href="#l-lpq">lpq</a></td>
