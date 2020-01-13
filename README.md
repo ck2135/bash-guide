@@ -263,7 +263,7 @@ tail filename
 ```
 
 ### t. `touch`
-Updates access and modification time stamps of your file. If it doesn't exists, it'll be created.
+It is used to create empty files. If it doesn't exists, it'll be created.
 ```bash
 touch filename
 ```
