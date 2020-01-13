@@ -73,7 +73,7 @@ $ which php
 ```
 
 ### e. clear
-Clears content on window.
+Clears the content on window.
 
 ## 1.1. File Operations
 <table>
